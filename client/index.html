@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>S&G Edifica - Gestión de Proyectos</title>
+    <!-- Los estilos se cargan via src/main.tsx -> index.css -->
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+      body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+  <body class="bg-gray-50 dark:bg-slate-900 transition-colors duration-200">
+    <div id="root"></div>
+    <!-- ESTA LINEA ES LA QUE FALTABA PARA QUE VITE CARGUE TU APP -->
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
